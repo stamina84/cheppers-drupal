@@ -6,6 +6,23 @@
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
+/web/.csslintrc
+/web/.editorconfig
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.gitattributes
+/web/.ht.router.php
+/web/.htaccess
+/web/autoload.php
+/web/index.php
+/web/robots.txt
+/web/update.php
+/web/web.config
+/web/sites/development.services.yml
+/web/sites/example.settings.local.php
+/web/sites/example.sites.php
+/web/sites/default/default.services.yml
+/web/sites/default/default.settings.php
 
 # Ignore sensitive information
 /web/sites/*/settings.php

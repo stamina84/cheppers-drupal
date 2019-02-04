@@ -3,6 +3,7 @@
 * `cp .env.dist .env`
 * `docker-compose up -d`
 * `composer install`
+* If web/index.php not exists, run `composer drupal:scaffold`
 * Copy `$databases` array to `web/sites/default/settings.php`
 ```php
 $databases['default']['default'] = [

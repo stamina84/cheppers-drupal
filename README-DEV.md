@@ -2,7 +2,7 @@
 
 * `cp .env.dist .env`
 * `docker-compose up -d`
-* `composer install`
+* `docker-compose exec -T php-fpm composer install`
 * If web/index.php not exists, run `composer drupal:scaffold`
 * Copy `$databases` array to `web/sites/default/settings.php`
 ```php
@@ -17,8 +17,4 @@ $databases['default']['default'] = [
   'username' => getenv('MYSQL_USER'),
 ];
 ```
-* Run `vendor/bin/drush si standard`
-
-## Before development
-
-* `composer install`
+* Visit `http://localhost/` and install Drupal
